@@ -1,0 +1,119 @@
+body{
+	margin: 0 px;
+	padding: 0px;
+	background: url(../assets/img/cokebootel.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.menubar button{
+	margin-top: 0px;
+	padding: 0px;
+	width: 10%;
+	height: 60px;
+	background-color:  #bdbaba;
+	position: absolute;
+	transform: translate(450%, 450%);
+	text-align: center;
+	 font-weight: 20px;
+	 border-radius: 25px;
+	 
+	
+	 
+}
+ 
+ 
+.loginbox{
+	width: 380px;
+	height: 480px;
+	background:#000 ;
+	color: #fff;
+	top:50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 20px;
+	border-radius: 10px;
+
+}
+.avatar{
+	width: 100px ;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:50px;
+	left: calc(50% - 50%);
+	background: url('https://www.bing.com/images/search?view=detailV2&ccid=gGnE7zLd&id=91C748C73E394CF763FDB45EEAA65BB89AF446AB&thid=OIP.gGnE7zLdXtsElexhpSriPgHaHa&mediaurl=https%3a%2f%2fst3.depositphotos.com%2f4326917%2f12573%2fv%2f950%2fdepositphotos_125734036-stock-illustration-user-sign-illustration-white-icon.jpg&exph=1024&expw=1024&q=userlogo+red&simid=608053355324329333&FORM=IRPRST&ck=E6D40B27846D9C2719D740C630FB9D33&selectedIndex=5&ajaxhist=0&ajaxserp=0');
+
+}
+h1{
+	margin: 0;
+	padding: 0 0 10px;
+	text-align: center;
+	font-size: 22px;
+
+}
+loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color:#fff;
+	font-size: 18px;
+	border-radius: 20px;
+
+}
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.error-msg{
+	color: red;
+	font-size: 14px;
+	width: 100%;
+
+
+}
+.error-password{
+	color: red;
+	font-size: 14px;
+	width: 100%;
+
+}
+.custom-input{
+	margin-bottom: 7px;
+}
+
+.success-msg{
+	width: 90%;
+	background-color: rgb(2, 108, 2);
+	color: white;
+	font-weight: 600;
+	padding: 20px;
+	border-radius: 20px;
+}
+

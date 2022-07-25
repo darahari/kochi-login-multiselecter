@@ -1,0 +1,37 @@
+ 
+.main-card{
+	margin: 100px 95px;
+	position: absolute;
+	background-color: rgb(232, 76, 37);
+	color: rgb(0, 0, 0);
+	width: 75%;
+	height: 50%;
+	top: 5%;
+	left: 5%;
+	 
+	box-sizing: border-box;
+	 
+	border-radius: 15px;
+
+}
+h4{
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+} 
+.submit{
+	background-color: #00308F;
+	color:rgb(10, 9, 9);
+	cursor:pointer
+	
+
+}
+.clear{
+	background-color: #00308F;
+	color:rgb(6, 6, 6);
+}
+
+.submit button[type="submit"]:hover{
+	cursor: pointer;
+	background: #0c7d1f;
+	color: #000;
+}
